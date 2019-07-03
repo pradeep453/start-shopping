@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 <div class="container footer">
 	<footer class="py-5 bg-dark">
@@ -8,3 +9,11 @@
 
 	</footer>
 </div>
+=======
+ <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Start Shopping 2019</p>
+    </div>
+   
+  </footer>
+>>>>>>> refs/remotes/origin/master
