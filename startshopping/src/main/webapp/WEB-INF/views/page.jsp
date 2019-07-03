@@ -56,6 +56,7 @@
 			<c:if test="${userClickContact == true }">
 				<%@include file="contact.jsp"%>
 			</c:if>
+<<<<<<< HEAD
 			
 			
 			<!-- 	Load only when user clicks contact -->
@@ -64,6 +65,8 @@
 			</c:if>
 			
 			
+=======
+>>>>>>> refs/remotes/origin/master
 		</div>
 		<!-- /.container -->
 

@@ -18,14 +18,20 @@ public class PageController {
 	@RequestMapping(value = { "/", "/home", "/index" })
 	public ModelAndView index() {
 		ModelAndView mv = new ModelAndView("page");
+
 		mv.addObject("title", "Home");
 
 		// passing the list of categories
 		mv.addObject("categories", categoryDAO.list());
 
 		mv.addObject("userClickHome", true);
+
+		mv.addObject("title","Home");
+		mv.addObject("userClickHome",true);
 		return mv;
 	}
+	
+
 
 	@RequestMapping(value = "/about")
 	public ModelAndView about() {
